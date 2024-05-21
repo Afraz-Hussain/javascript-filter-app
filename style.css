@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(194, 191, 188, 0.034);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.pics{
+    width: 350px;
+    height: 350px;
+   padding: 6px;
+}
+
+.searchbar{
+    margin-top: 30px;
+    padding-right: 20px;
+
+}
+.categories{
+    flex-direction: column;
+    gap: 30px;
+    cursor: pointer;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(114, 113, 113, 0.603);
+}
+.searchbar {
+    padding: 10px;
+    font-size: 16px;
+}
+.rangebox{
+    padding-top: 30px;
+    margin-right: 100px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    padding: 06px;
+}
